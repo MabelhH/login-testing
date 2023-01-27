@@ -41,7 +41,8 @@ export class AppComponent implements OnInit{
 login(): any{
   console.log(this.formLogin.value)
   if(this.formLogin.value){
-  this.resultado= 'se ha iniciado sesion correctamnete'
+   
+  this.resultado= 'se ha iniciado sesion correctamente'
   }else{
    this.resultado= 'formulario vacio'
   }
