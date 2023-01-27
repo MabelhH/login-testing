@@ -14,3 +14,8 @@ margin-top: 20px;
 .title{
     margin-left: 5px;
 }
+.invalido{
+    background-color: plum;
+    border-radius: 4px;
+    padding: 15px;
+}
