@@ -5,3 +5,12 @@
 .container{
 margin-top: 100px;
 }
+.content{
+background-color: paleturquoise;
+padding: 10px;
+border-radius: 6px;
+margin-top: 20px;
+}
+.title{
+    margin-left: 50px;
+}

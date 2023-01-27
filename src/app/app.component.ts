@@ -9,6 +9,8 @@ export class AppComponent implements OnInit{
   
   title = 'login-testing';
   resultado!:string;
+  usuario:string=''
+  contra:string=''
 
   public formLogin!: FormGroup;
 
