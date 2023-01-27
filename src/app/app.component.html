@@ -1,0 +1,26 @@
+<div class="container">
+  <p>{{resultado}}</p>
+  <div class="card">
+    <div class="card-header login">
+      Login
+    </div>
+    <div class="card-body ">
+        <form [formGroup]="formLogin">
+            <div class="mb-3">
+              <label for="usuario" class="form-label">Email address</label>
+              <input type="email" formControlName="usuario" class="form-control" id="usuario">
+              
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" formControlName="password" class="form-control" id="password">
+            </div>
+            <button type="submit" class="btn btn-primary form-control" [disabled]="formLogin.invalid" (click)="login()">Submit</button>
+          </form>
+    </div>
+  </div>
+</div>
+
+
+
+<router-outlet></router-outlet>
